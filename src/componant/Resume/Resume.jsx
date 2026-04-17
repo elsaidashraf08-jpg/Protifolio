@@ -1,10 +1,9 @@
-import { React, useState } from "react";
 import styles from "./Resume.module.css";
 import CardResume from "../Repeating/CardResume/CardResume";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Resume() {
-  let [expertise, setExpertise] = useState([
+  const expertise = [
     {
       index: 0,
       title: "Frontend Developer",
@@ -20,10 +19,10 @@ export default function Resume() {
         "I am a passionate lead developer with over 5 years of experience in building scalable web applications. I have a strong background in JavaScript, React, and Node.js.",
     }
 
-    
-  ]);
-  let [education, setEducation] = useState([
-    
+
+  ];
+  const education = [
+
 
     {
       index: 1,
@@ -40,7 +39,7 @@ export default function Resume() {
       discription:
         "Communication Engineering student with knowledge of analog and digital communication systems, signal processing, and microwave devices. Motivated to develop technical skills and apply engineering concepts to real-world communication challenges.",
     }
-  ]);
+  ];
  AOS.init({
     duration: 1000,
     once: true,

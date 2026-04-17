@@ -1,9 +1,7 @@
-import React, { useEffect, useState } from "react";
 import styles from "./Navdar.module.css";
-import logo from "../../assets/Image/logo-light-2.png";
 export default function Navbar() {
-  const [scrolled, setScrolled] = useState(false);
-  
+
+
 
   
   return (
