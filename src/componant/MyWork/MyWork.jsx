@@ -8,7 +8,7 @@ export default function MyWork() {
     {
       title: "Restaurant Website",
       image: img1,
-      comment: ["Web", "Design"],
+      comment: ["Web", "Design"]
     },
     {
       title: "E-commerce Website",
@@ -20,14 +20,14 @@ export default function MyWork() {
       title: "Portfolio Website",
       image: img1,
       comment: ["Web3", "Design"],
-      link:"https://restaurant-l.netlify.app/"
+      link: "https://restaurant-l.netlify.app/"
     },
     ,
     {
       title: "Portfolio Website",
       image: img1,
       comment: ["Web3", "Design"],
-        link:""
+      link: ""
     },
     {
       title: "Dynamic mobile app development",
