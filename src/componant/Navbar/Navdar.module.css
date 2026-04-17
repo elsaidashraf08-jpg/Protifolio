@@ -1,0 +1,92 @@
+a {
+  font-family: "Barlow", sans-serif;
+}
+
+.navbarBrand {
+  width: 8rem;
+  height: auto;
+}
+.bg {
+  background: rgba(255, 255, 255, 0.1); 
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+   
+}
+.navLink {
+  color: #fff !important;
+  font-size: 0.8rem !important;
+  font-weight: 700 !important;
+}
+.navbtn {
+  font-size: 0.9rem !important;
+  font-weight: 700 !important;
+  white-space: nowrap;
+}
+.navhaver {
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px 22px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navhaver:hover {
+  background: linear-gradient(135deg, #754f25, #ff4d6d);
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.35);
+}
+
+.navhaver i {
+  transition:
+    transform 0.3s ease,
+    color 0.5s ease;
+}
+.navbtn {
+  transition: color 0.5s ease;
+}
+.navhaver:hover i {
+  transform: translateX(6px) rotate(10deg);
+  color: #ffd700;
+}
+.fixedNav {
+ position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 95%;
+  max-width: 1200px;
+
+  z-index: 9999;
+  animation: navbarSlide 0.4s ease;
+  backdrop-filter: blur(10px);
+}
+.navbarBrand {
+  width: 8rem;
+}
+
+@media (max-width: 768px) {
+  .navbarBrand {
+    width: 6rem;
+  }
+}
+@media (max-width: 992px) {
+  .navhaver {
+    margin-top: 10px;
+    width: 100%;
+    justify-content: center;
+  }
+}
+@media (max-width: 992px) {
+  .navLink {
+   
+    padding: 10px 0;
+  }
+}

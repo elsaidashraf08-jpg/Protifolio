@@ -1,0 +1,14 @@
+.social {
+  background-color: #313030;
+}
+
+.socialIcon {
+  color: #ffffff;
+  width: 40px !important;
+  height: 40px !important;
+  text-decoration: none;
+}
+.socialIcon:hover {
+  color: #f75c00;
+  transition: all 0.3s ease-in-out;
+}

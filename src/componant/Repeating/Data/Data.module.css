@@ -1,0 +1,17 @@
+.data {
+ background: linear-gradient(135deg, #f75c00, #fd9500);;
+  padding: 1.5px 3px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 700;
+}
+@media screen and (max-width: 425px) {
+  .data {
+    border-radius: 15px;
+    font-size: 10px;
+display: flex;
+align-items: center;
+justify-content: center;
+  }
+  
+}

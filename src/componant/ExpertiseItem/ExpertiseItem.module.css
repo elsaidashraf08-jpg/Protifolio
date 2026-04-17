@@ -1,0 +1,20 @@
+.card {
+  height: 350px;
+  background: linear-gradient(50deg, #121212 20%, #1d1c1c 100%);
+  border: 1px solid rgb(255 255 255 / 8%);
+    padding: 55px 22px;
+}
+
+.image_card {
+  width: 75px;
+  height: 75px;
+  box-shadow: 0 0 20px 0 rgb(109 117 143 / 15%);
+  background: linear-gradient(90deg, #191818 20%, #312c2c 100%);
+}
+.percentage{
+  font-family: 'Barlow', sans-serif;
+}
+.name{
+  font-family: 'Barlow', sans-serif;
+font-size: 15px;
+}

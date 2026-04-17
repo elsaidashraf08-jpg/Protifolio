@@ -1,0 +1,19 @@
+.card {
+  background: linear-gradient(135deg, #171717, #2c2b2b);
+  /* height: 350px; */
+}
+.icon {
+  background: linear-gradient(135deg, #f75c00, #fd9500);
+  padding: 12px 13.5px;
+  border-radius: 100px;
+  font-size: 10px;
+  transform: rotate(-30deg);
+}
+.card_body_a  {
+  transition: color 0.3s ease;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+}
+.card_body_a:hover {
+  color : #F54200;
+}

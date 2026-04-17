@@ -1,0 +1,23 @@
+.card {
+    width: 100%;
+  background-color: #272626;
+  border-radius: 10px;
+  border: 1px solid rgb(255 255 255 / 8%);
+}
+.title{
+    padding: 25px 20px;
+    border-bottom: 1px solid rgb(255 255 255 / 8%);
+}
+.discription {
+    padding: 30px 30px !important;
+    
+    font-family: "Barlow", sans-serif;
+    color: #cccccc; 
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 400;
+}
+.title{
+    color: white;
+    font-family: "Barlow", sans-serif;
+}

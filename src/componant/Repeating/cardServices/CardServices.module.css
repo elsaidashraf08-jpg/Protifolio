@@ -1,0 +1,38 @@
+.card {
+  height: 390px;
+  background-color: #1a1919;
+  padding: 20px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  border: 1px solid #333333;
+   transition: all 0.4s ease-in-out;
+}
+.card h4 {
+  color: white;
+  font-size: 25px;
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+}
+.card p {
+  color: #cccccc;
+  font-size: 14px;
+  line-height: 2;
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  width: 80%;
+}
+.card i{ 
+  display: block;
+font-size: 50px;
+  color: #f85d00
+}
+.card:hover {
+  
+  border: 1px solid #f85d00;
+ 
+}

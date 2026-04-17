@@ -1,0 +1,90 @@
+.contact {
+  background-color: #120f12;
+}
+.title {
+  height: 700px;
+  background: linear-gradient(0deg, #151515 20%, #222222 100%);
+  position: relative;
+  padding: 40px;
+}
+.title span {
+  color: transparent;
+  -webkit-text-stroke: 1px #f54200;
+  font-size: 100px;
+  display: inline;
+  font-weight: 800;
+  text-transform: uppercase;
+  position: absolute;
+  left: 400px;
+  top: 1%;
+}
+
+input,
+textarea {
+  background-color: transparent !important;
+  border: 1px solid rgb(255 255 255 / 20%) !important;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 7px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #ffffff9b !important;
+  font-size: 13px;
+}
+button {
+  background: linear-gradient(135deg, #f75c00, #fd9500) !important;
+  color: white !important;
+  border-radius: 50px !important;
+}
+img {
+  width: 80%;
+}
+.imgPerson {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  z-index: 0;
+}
+@media screen and (max-width: 1186px) {
+  img {
+    width: 70%;
+  }
+  .imgPerson {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    z-index: 0;
+  }
+  .title span {
+    font-size: 100px;
+    left: 400px;
+  }
+}
+
+@media screen and (max-width: 1186px) {
+  .title span {
+    left: 125px;
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 425px) {
+  input,
+  textarea {
+    padding: 9px 12px;
+  }
+  
+  .title span {
+    font-size: 30px;
+    left: 50px;
+  }
+
+.title {
+  height: 600px;
+  background: linear-gradient(0deg, #151515 20%, #222222 100%);
+  padding: 40px;
+}
+
+
+
+}

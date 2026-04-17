@@ -1,0 +1,43 @@
+.card {
+  background: linear-gradient(0deg, #151515 20%, #222222 100%);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  border-radius: 30px;
+}
+.title {
+  color: white;
+  border-bottom: 1px solid #5f5f5f;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 25px;
+}
+.title span {
+  font-family: "Poppins", sans-serif;
+  color: #878686;
+  font-size: 14px;
+}
+.order {
+  background: linear-gradient(135deg, #f75c00, #fd9500);
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 100px;
+}
+p span {
+  font-size: 14px;
+  color: #cccccc;
+}
+li::marker {
+  color: #f75c00;
+}
+li {
+  font-family: "Poppins", sans-serif;
+  width: 50%;
+  color: #cccccc;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
