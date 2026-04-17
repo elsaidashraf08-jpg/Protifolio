@@ -1,3 +1,4 @@
+import React from "react";
 
 import Navbar from "./componant/Navbar/Navbar";
 import "./App.css";
@@ -12,7 +13,6 @@ import Contact from "./componant/Contact/Contact";
 function App() {
   return (
     <>
-
       <Navbar />
 
       <Home />

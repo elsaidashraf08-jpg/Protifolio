@@ -1,10 +1,9 @@
-import { React, useState } from "react";
 import styles from "./Pricing.module.css";
 import CardPricing from "../Repeating/CardPricing/CardPricing";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Pricing() {
-  let [contant, setContant] = useState([
+  const contant = [
     {
       title: "Basic",
       description: "Need a simple and clean website or landing page?",
@@ -41,7 +40,7 @@ export default function Pricing() {
     //     "Advanced animations",
     //   ],
     // },
-  ]);
+  ];
  AOS.init({
     duration: 1000,
     once: true,

@@ -1,10 +1,9 @@
-import { useState } from "react";
 import styles from "./MyWork.module.css";
 import CardWork from "../Repeating/CardWork/CardWork";
 import img1 from "../../assets/Image/مطعم.png";
 import img2 from "../../assets/Image/wed2.png";
 export default function MyWork() {
-  let [data, setData] = useState([
+  const data = [
     {
       title: "Restaurant Website",
       image: img1,
@@ -22,7 +21,6 @@ export default function MyWork() {
       comment: ["Web3", "Design"],
       link: "https://restaurant-l.netlify.app/"
     },
-    ,
     {
       title: "Portfolio Website",
       image: img1,
@@ -41,7 +39,7 @@ export default function MyWork() {
       comment: ["Web3", "Design"],
       link: ""
     },
-  ]);
+  ];
 
   return (
     <>

@@ -1,7 +1,6 @@
  
 import styles from "./Expertise.module.css";
 import ExpertiseItem from "../ExpertiseItem/ExpertiseItem";
-import { useState } from "react";
 import icon1 from "../../assets/Image/figma.png";
 import icon2 from "../../assets/Image/html.webp";
 import icon3 from "../../assets/Image/CSS3_logo.svg.png";
@@ -11,7 +10,7 @@ import icon6 from "../../assets/Image/github.webp";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Expertise() {
-  let[expertise,setExpertise] = useState([
+  const expertise = [
     {
       name:"Figma",
       percentage: 75,
@@ -42,7 +41,8 @@ export default function Expertise() {
       percentage: 70,
       icon: icon6
     },
-  ]);
+  ];
+
  AOS.init({
     duration: 1000,
     once: true,
