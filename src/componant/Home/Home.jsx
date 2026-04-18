@@ -8,12 +8,10 @@ import Social from "../Repeating/Social/Social";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Home() {
- 
-    AOS.init({
-      duration: 1000,
-      once: true,
-    });
-  
+  AOS.init({
+    duration: 1000,
+    once: true,
+  });
 
   return (
     <section className="hero overflow-hidden">
@@ -34,13 +32,12 @@ export default function Home() {
               <span
                 className={`${styles.subtitle} fs-1 border border-white p-2 rounded-2`}
               >
-                web developer
+                Web Developer
               </span>
             </div>
             <p className={`mt-4 fs-6 ${styles.description}`}>
-              Hi, my name is Alsayed and I began using WordPress when it first
-              began. I’ve spent most of my waking hours for the last ten years
-              designing programming and operating WordPress sites.
+              I'm Samer Selim, a Front-End Developer building modern web
+              experiences with clean code and creative precision
             </p>
 
             <div

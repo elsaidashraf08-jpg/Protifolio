@@ -3,43 +3,33 @@ import CardWork from "../Repeating/CardWork/CardWork";
 import img1 from "../../assets/Image/restaurant.png";
 import img2 from "../../assets/Image/wed2.png";
 import img3 from "../../assets/Image/web3.png";
+import img4 from "../../assets/Image/web4.png";
 export default function MyWork() {
   const data = [
     {
-      title: "Restaurant Website",
-      image: img1,
-      comment: ["Web", "Design"],
-    },
-    {
-      title: "E-commerce Website",
+      title: "Game Zone",
       image: img2,
-      comment: ["Web2", "Design"],
-      link: "https://gamezone-s.netlify.app/",
+      comment: ["Web", "Design"],
+      link: "https://game-zone-ten-indol.vercel.app/",
     },
     {
-      title: "Portfolio Website",
+      title: " Movie Search",
       image: img3,
-      comment: ["Web3", "Design"],
+      comment: ["Web", "Design", "js", "api"],
 
       link: "https://moviesearch-steel-zeta.vercel.app/",
     },
     {
-      title: "Portfolio Website",
+      title: " Restaurant Website",
       image: img1,
       comment: ["Web3", "Design"],
-      link: "",
+      link: "https://restaurant-blush-eight-91.vercel.app/",
     },
     {
-      title: "Dynamic mobile app development",
-      image: img1,
-      comment: ["Web3", "Design"],
-      link: "",
-    },
-    {
-      title: "Portfolio Website",
-      image: img1,
-      comment: ["Web3", "Design"],
-      link: "",
+      title: "  Add and Update Product",
+      image: img4,
+      comment: ["Web", "Design" , "js"],
+      link: "https://add-and-update-prodact.vercel.app/",
     },
   ];
 
