@@ -1,43 +1,45 @@
 import styles from "./MyWork.module.css";
 import CardWork from "../Repeating/CardWork/CardWork";
-import img1 from "../../assets/Image/مطعم.png";
+import img1 from "../../assets/Image/restaurant.png";
 import img2 from "../../assets/Image/wed2.png";
+import img3 from "../../assets/Image/web3.png";
 export default function MyWork() {
   const data = [
     {
       title: "Restaurant Website",
       image: img1,
-      comment: ["Web", "Design"]
+      comment: ["Web", "Design"],
     },
     {
       title: "E-commerce Website",
       image: img2,
       comment: ["Web2", "Design"],
-      link: "https://gamezone-s.netlify.app/"
+      link: "https://gamezone-s.netlify.app/",
+    },
+    {
+      title: "Portfolio Website",
+      image: img3,
+      comment: ["Web3", "Design"],
+
+      link: "https://moviesearch-steel-zeta.vercel.app/",
     },
     {
       title: "Portfolio Website",
       image: img1,
       comment: ["Web3", "Design"],
-      link: "https://restaurant-l.netlify.app/"
-    },
-    {
-      title: "Portfolio Website",
-      image: img1,
-      comment: ["Web3", "Design"],
-      link: ""
+      link: "",
     },
     {
       title: "Dynamic mobile app development",
       image: img1,
       comment: ["Web3", "Design"],
-      link: ""
+      link: "",
     },
     {
       title: "Portfolio Website",
       image: img1,
       comment: ["Web3", "Design"],
-      link: ""
+      link: "",
     },
   ];
 
