@@ -1,7 +1,8 @@
 import styles from "./MyWork.module.css";
 import CardWork from "../Repeating/CardWork/CardWork";
-import img1 from "../../assets/Image/مطعم.png";
+import img1 from "../../assets/Image/restaurant.png";
 import img2 from "../../assets/Image/wed2.png";
+import img3 from "../../assets/Image/web3.png";
 export default function MyWork() {
   const data = [
     {
@@ -17,9 +18,9 @@ export default function MyWork() {
     },
     {
       title: "Portfolio Website",
-      image: img1,
+      image: img3,
       comment: ["Web3", "Design"],
-      link:"https://restaurant-l.netlify.app/"
+      link:"https://moviesearch-steel-zeta.vercel.app/"
     },
     {
       title: "Portfolio Website",
