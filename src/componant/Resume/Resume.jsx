@@ -9,16 +9,9 @@ export default function Resume() {
       title: "Frontend Developer",
       data: "5 - 2025 ",
       discription:
-        "I am a passionate lead developer with over 5 years of experience in building scalable web applications. I have a strong background in JavaScript, React, and Node.js.",
+        "I am a passionate lead developer with over one year of experience in building scalable web applications. I have a strong background in JavaScript, React .",
     },
-    {
-      index: 0,
-      title: "Frontend Developer",
-      data: "5 - 2025 ",
-      discription:
-        "I am a passionate lead developer with over 5 years of experience in building scalable web applications. I have a strong background in JavaScript, React, and Node.js.",
-    }
-
+ 
 
   ];
   const education = [
@@ -32,13 +25,7 @@ export default function Resume() {
         "Communication Engineering student with knowledge of analog and digital communication systems, signal processing, and microwave devices. Motivated to develop technical skills and apply engineering concepts to real-world communication challenges.",
     },
 
-    {
-      index: 1,
-      title: " communication Engineer",
-      data: "2023 - 2028   Present",
-      discription:
-        "Communication Engineering student with knowledge of analog and digital communication systems, signal processing, and microwave devices. Motivated to develop technical skills and apply engineering concepts to real-world communication challenges.",
-    }
+  
   ];
  AOS.init({
     duration: 1000,

@@ -36,7 +36,7 @@ export default function Home() {
               </span>
             </div>
             <p className={`mt-4 fs-6 ${styles.description}`}>
-              I'm Samer Selim, a Front-End Developer building modern web
+              I'm  Elsayed Ashraf, a Front-End Developer building modern web
               experiences with clean code and creative precision
             </p>
 
@@ -44,14 +44,12 @@ export default function Home() {
               className={`d-flex flex-wrap align-items-center flex-column flex-lg-row  mt-5   ${styles.link}`}
             >
               <a
-                href="#contact"
+                href="#"
                 className={`${styles.hireMe} me-0 me-lg-5`}
-                onClick={(e) => {
-                  e.preventDefault();
-                  window.scrollTo({ top: 6000, behavior: "smooth" });
-                }}
+       
+      
               >
-                hire me now
+               download CV
                 <i
                   className={`fa-solid fa-arrow-right-long ${styles.hireMeIcon}`}
                 ></i>
